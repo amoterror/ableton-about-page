@@ -67,7 +67,7 @@ header {
   position: ;
 }
 
-#abtStrt {
+#abt {
   background-color: white;
   text-align: left;
   padding: 5% 25%;
@@ -84,12 +84,12 @@ header {
 #img-grid-1 {
   background-color: white;
   position: relative;
-  height: 1000px;
+  height: 700px;
 }
 
 #yelBox {
   position: absolute;
-  background-color: yellow;
+  background-color: #fbffa7;
   height: 700px;
   width: 900px;
   right: 0%;
