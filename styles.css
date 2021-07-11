@@ -64,9 +64,13 @@ header {
   padding: 1%;
   background-color: white;
   margin-top: 2px;
-  position: ;
+  opacity: 90%;
 }
-
+#sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 #abt {
   background-color: white;
   text-align: left;
@@ -110,4 +114,171 @@ header {
 }
 #artMain {
   background-color: white;
+}
+#img-grid-2 {
+  position: relative;
+  background-color: white;
+  height: 110vh;
+}
+#img3 {
+  height: 35%;
+  width: 35%;
+  position: absolute;
+  top: 12%;
+  left: 8%;
+}
+#img4 {
+  position: absolute;
+  height: 35%;
+  width: 35%;
+  left: 8%;
+  top: 58%;
+}
+#img5 {
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+#grBox {
+  background-color: #b6ffc0;
+  height: 100%;
+  width: 60%;
+}
+#img-grid-3 {
+  position: relative;
+  height: 80vh;
+}
+#img6 {
+  height: 45%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 1;
+}
+#img7 {
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  z-index: 1;
+}
+#puBox {
+  height: 100%;
+  width: 60%;
+  background-color: #d5b3ff;
+  position: absolute;
+  left: 20%;
+}
+#img-grid-4 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 55vh;
+  padding-left: 15%;
+  padding-bottom: 8%;
+}
+#img8 {
+  width: 42%;
+}
+#blBox {
+  background-color: #b1c5ff;
+  width: 42%;
+  height: 100%;
+  text-align: left;
+}
+
+#footTit {
+  padding: 5% 10% 2% 10%;
+  margin-top: 1px;
+  background-color: white;
+}
+
+#footHead {
+  font-size: 70px;
+  display: flex;
+}
+#navGrVr {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+#grLink {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+#ftNav1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#navGrHr {
+  display: flex;
+  flex-direction: row;
+  gap: 13%;
+  flex-wrap: wrap;
+}
+#footNav {
+  padding: 0% 10% 5% 10%;
+  background-color: white;
+}
+#EmIn {
+  background-color: lightgrey;
+  border: none;
+  width: 100%;
+  padding: 4% 3%;
+}
+#SiUp {
+  width: 20%;
+  background-color: blue;
+  color: white;
+  direction: none;
+  border: none;
+  font-weight: bold;
+}
+#inD {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#inD2 {
+  height: 100%;
+  width: 50%;
+  gap: 2%;
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+}
+#inD3 {
+  border: none;
+  background-color: lightgray;
+  height: 150%;
+}
+
+#last {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10%;
+  width: 100%;
+  padding-bottom: ;
+}
+#lastLink {
+  color: black;
+  text-decoration: none;
+}
+#LinkList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#berlin {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-bottom: 6%;
 }
